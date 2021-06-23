@@ -85,3 +85,6 @@ C:\Users\wazedrifat\Documents\vs code\dotnet_angular_jira_database\WebApp\WebApp
 C:\Users\wazedrifat\Documents\vs code\dotnet_angular_jira_database\WebApp\WebApp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\wazedrifat\Documents\vs code\dotnet_angular_jira_database\WebApp\WebApp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\wazedrifat\Documents\vs code\dotnet_angular_jira_database\WebApp\WebApp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\wazedrifat\Documents\vs code\dotnet_angular_jira_database\WebApp\WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\wazedrifat\Documents\vs code\dotnet_angular_jira_database\WebApp\WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\wazedrifat\Documents\vs code\dotnet_angular_jira_database\WebApp\WebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

@@ -9,7 +9,7 @@ namespace WebApp.Models
     {
         public int id { get; set; }
         public string summary { get; set; }
-        public int projectID { get; set; }
-        public int issueID { get; set; }
+        public string projectID { get; set; }
+        public string issueID { get; set; }
     }
 }
