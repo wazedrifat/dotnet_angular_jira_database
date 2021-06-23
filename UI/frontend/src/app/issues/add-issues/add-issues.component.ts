@@ -33,6 +33,10 @@ export class AddIssuesComponent implements OnInit {
 			alert("Fill up all information");
 		}
 		else {
+			this.service.addToJira(val).subscribe(res=> {
+				alert("added to Jira");
+			});
+			
 			this.service.addIssue(val).subscribe(res=> {
 				alert("Created Successfully");
 			});
