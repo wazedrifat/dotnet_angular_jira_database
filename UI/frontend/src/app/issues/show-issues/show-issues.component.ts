@@ -42,10 +42,6 @@ export class ShowIssuesComponent implements OnInit {
 		this.service.getIssueList().subscribe(data=>{
 			this.issueList=data;
 		  });
-
-		for(let data of this.issueList) {
-			console.log(data);
-		}
 	}
 
 }

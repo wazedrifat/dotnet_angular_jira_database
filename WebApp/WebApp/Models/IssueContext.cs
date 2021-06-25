@@ -14,7 +14,5 @@ namespace WebApp.Models
         }
 
         public DbSet<Issue> issues { get; set; }
-
-
     }
 }

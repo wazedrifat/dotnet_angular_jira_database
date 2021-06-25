@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using WebApp.Models;
 
@@ -20,6 +22,8 @@ namespace WebApp.Repositories
             _context.issues.Add(issue);
             await _context.SaveChangesAsync();
 
+            
+            
             return issue;
         }
 

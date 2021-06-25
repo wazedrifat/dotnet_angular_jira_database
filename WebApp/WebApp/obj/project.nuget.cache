@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pXwEVnYJzPVRuArIximBBDOxbPLVyTnFKywtWJb+26l6ARdZEjTrtBCOm1oWUHZJHZH341f66B2Lz1bGeGZEPA==",
+  "dgSpecHash": "+ihPq2DxG+hGzgZrASWpJjwobN5+T1PHopF843u+CEVQnlnhqjjZ6LsqFsM+oEyGyv5CUNnWWx3wMc2JGd5Vig==",
   "success": true,
   "projectFilePath": "C:\\Users\\wazedrifat\\Documents\\vs code\\dotnet_angular_jira_database\\WebApp\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\wazedrifat\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\wazedrifat\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\wazedrifat\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\wazedrifat\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\wazedrifat\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\wazedrifat\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\wazedrifat\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
