@@ -9,6 +9,7 @@ using WebApp.Models;
 using System.Net.Http;
 using RestSharp;
 using RestSharp.Authenticators;
+using Newtonsoft.Json;
 
 namespace WebApp.Controllers
 {
@@ -41,9 +42,9 @@ namespace WebApp.Controllers
         public async Task<ActionResult<Issue>> PostIssue([FromBody] Issue issue)
         {
             var newIssue = await issueRepository.Create(issue);
+            JiraIssue obj = new JiraIssue(issue);
 
-
-            var data = "{\"fields\" : {\"project\": {\"key\" : \"" + issue.projectID + "\"},\"summary\" : \"" + issue.summary + "\",\"issuetype\" : {\"name\" : \"" + issue.issueID + "\"}}}";
+            var data = JsonConvert.SerializeObject(obj).ToString();
 
             //Console.WriteLine("data = " + data + "\n\n");
 

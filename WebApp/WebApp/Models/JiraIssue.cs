@@ -30,19 +30,19 @@ namespace WebApp.Models
         {
             this.project = new Project(p);
             this.summary = s;
-            this.issueType = new IssueType(i);
+            this.issuetype = new IssueType(i);
         }
 
         public Fields(Project project, string summary, IssueType issueType)
         {
             this.project = project;
             this.summary = summary;
-            this.issueType = issueType;
+            this.issuetype = issueType;
         }
 
         public Project project { get; set; }
         public string summary { get; set; }
-        public IssueType issueType { get; set; }
+        public IssueType issuetype { get; set; }
     }
 
     public class JiraIssue
